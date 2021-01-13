@@ -1,0 +1,29 @@
+##~Copy Right
+Sanved Tapkeer, Tejas Kapadia, Devina
+
+The following code allows to get the temperature sensors and stores the data in an automatic Generated file - Output.file
+
+To run the Following code:
+
+First install Arduino ide which is available for free at https://www.arduino.cc/en/main/software
+
+second install IDE Board - ESP8266 by going to file -> preferences -> under additional borad managers paste this -> https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json then click 'OK'
+
+Third install the Libraries for DHT by going to tools -> manage libraries -> under filter your search type -> adafruit DHT sensor or download it using git file :-> https://github.com/adafruit/DHT-sensor-library
+
+Fourth change the board from arduino uno to ESP8266 by going to tools -> boards -> NODEMCU 1.0(ESP-12E module)
+
+fifth open the ide code given
+
+sixth Compile the code using verify button (tick mark sign) and upload it to the Node-mcu using the upload button (->)
+
+note: if the port shows error for uploading; in new terminal write : sudo chmod a+rw /dev/ttyUSB0 
+	then try uploading again.
+
+sixth run the python file provided in terminal - specifically for ubuntu. using command -> python "Filename".py
+
+
+
+
+
+Thankyou for your support!! 

@@ -110,7 +110,7 @@ void loop() {
   else{
     state4 = false;
   }
-  temperatureString = String(temperatureF) + ", 22," + state4;
+  temperatureString = String(temperatureF) + ", 4, " + state4;
   Serial.println(temperatureString);
   Serial.println();
   delay(200);
@@ -118,12 +118,12 @@ void loop() {
 
   //Digital DHT11 reading
   
-  Serial.print(f1); Serial.print(", 15, "); Serial.println(state1);
+  Serial.print(f1); Serial.print(", 1, "); Serial.println(state1);
   delay(200);
 
-  Serial.print(f2); Serial.print(", 16, "); Serial.println(state2);
+  Serial.print(f2); Serial.print(", 2, "); Serial.println(state2);
   delay(200);
 
-  Serial.print(f3); Serial.print(", 21, "); Serial.println(state3);
+  Serial.print(f3); Serial.print(", 3, "); Serial.println(state3);
   delay(200);
 }
